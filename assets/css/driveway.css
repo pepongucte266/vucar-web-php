@@ -1,0 +1,82 @@
+/* poppins-regular - latin */
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Poppins Regular"), local("Poppins-Regular"), url("/assets/fonts/poppins-v9-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/assets/fonts/poppins-v9-latin-regular.woff") format("woff");
+    /* Modern Browsers */
+}
+
+
+/* poppins-500 - latin */
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: local("Poppins Medium"), local("Poppins-Medium"), url("/assets/fonts/poppins-v9-latin-500.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/assets/fonts/poppins-v9-latin-500.woff") format("woff");
+    /* Modern Browsers */
+}
+
+
+/* poppins-600 - latin */
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+    src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url("/assets/fonts/poppins-v9-latin-600.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/assets/fonts/poppins-v9-latin-600.woff") format("woff");
+    /* Modern Browsers */
+}
+
+
+/* poppins-700 - latin */
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: local("Poppins Bold"), local("Poppins-Bold"), url("/assets/fonts/poppins-v9-latin-700.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/assets/fonts/poppins-v9-latin-700.woff") format("woff");
+    /* Modern Browsers */
+}
+
+@font-face {
+    font-family: "Circular";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Circular/Circular-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Circular";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/Circular/Circular-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Circular";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/Circular/Circular-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Circular";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Circular/Circular-Bold.woff2") format("woff2");
+}

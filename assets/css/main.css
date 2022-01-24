@@ -1,0 +1,97 @@
+html {
+    font-size: 87.5%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    overflow-y: scroll
+}
+
+.ui.button:disabled {
+    opacity: 1!important
+}
+
+.ui.button.ui.dropdown .text {
+    margin-right: 24px
+}
+
+.ui.button.ui.dropdown i {
+    margin: 0
+}
+
+.visible.menu.transition {
+    width: 100%
+}
+
+.dropdown.focused>i.icon {
+    margin: 0!important
+}
+
+.tooltip {
+    position: absolute;
+    background: #4e4e4e;
+    color: #fff;
+    width: 150px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+    padding: 10px;
+    text-align: center;
+    z-index: 5000;
+    font-size: .857rem
+}
+
+.tooltip[x-placement^=top] {
+    margin-bottom: 10px
+}
+
+.tooltip[x-placement^=bottom] {
+    margin-top: 10px
+}
+
+.tooltip[x-placement^=right] {
+    margin-left: 10px
+}
+
+.tooltip[x-placement^=left] {
+    margin-right: 10px
+}
+
+.tooltip .tooltip-arrow {
+    width: 0;
+    height: 0;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: 5px solid #4e4e4e;
+    margin: 0 5px
+}
+
+.tooltip[x-placement^=bottom] .tooltip-arrow,
+.tooltip[x-placement^=top] .tooltip-arrow {
+    left: calc(50% - 5px)
+}
+
+.tooltip[x-placement^=left] .tooltip-arrow,
+.tooltip[x-placement^=right] .tooltip-arrow {
+    top: calc(50% - 5px)
+}
+
+.tooltip[x-placement^=top] .tooltip-arrow {
+    bottom: -5px
+}
+
+.tooltip[x-placement^=bottom] .tooltip-arrow {
+    top: -5px
+}
+
+.tooltip[x-placement^=right] .tooltip-arrow {
+    left: -10px
+}
+
+.tooltip[x-placement^=left] .tooltip-arrow {
+    right: -10px
+}
